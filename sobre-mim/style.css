@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "Permanent Marker";
+  src: url(./fonts/PermanentMarker.ttf) format("truetype"),
+    url(./fonts/PermanentMarker.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(./fonts/Inter.ttf) format("truetype");
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+  margin: 0;
+  font-size: 100%;
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.page {
+  font-family: "Inter", sans-serif;
+  background: #eeeeee;
+}
+
+.header {
+  height: 100vh;
+  background-image: url(images/computer.jpg);
+  background-size: cover;
+  background-position: top left;
+}
+
+/* adicione as regras CSS para o título da pagina */
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+}
+
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 790px;
+  margin: 100px auto 50px;
+  /* adicione aqui as regras restantes */
+}
+
+/* adicionar regras CSS para cartões/cards e seu conteúdo aqui */
+
+.footer {
+  display: flex;
+  min-height: 300px;
+  background-color: #000;
+
+  
+  /* adicione aqui as regras restantes */
+}
+
+.footer p{
+  color: white;
+  font-size: 24px;
+  margin: auto;
+}
+
+
+.nome-header {
+  font-family: "Permanent Marker", cursive;
+  font-size: 140px;
+  line-height: 140px;
+  color: white;
+  text-transform: uppercase;
+  margin: auto;
+}
+
+.card{
+  width: 350px;
+  margin-bottom: 60px;
+  padding: 45px 45px 70px;
+  background: #ffffff;
+  box-shadow: 4px 4px 5px rgba(0, 132, 255, 0.4);
+  
+  
+
+}
+
+.card-title{
+font-family: "Permanent Marker", cursive;
+font-size: 24px;
+margin-bottom: 10px;
+
+}
+
+.card-text{
+  font-size: 16px;
+}
+
+.card-image {
+  width: 100%;
+  margin-bottom: 25px;
+  height: 300px;
+  object-fit: cover;
+  
+  
+}
+  
+  
+  
+
+
+/* adicionar uma regra CSS para a assinatura do rodapé */
